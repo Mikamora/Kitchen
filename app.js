@@ -28,6 +28,7 @@ let garey = {
     Age: 99,
     Name: "garey"
 }
+//I could also initialize the objects in the array like ex. let people [{age:#, name:name}, etc.]
 let people = [garey, sam, kas, rudy, harry];
 let hwLength = getLength(sayHello());
 
