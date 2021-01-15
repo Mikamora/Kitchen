@@ -29,9 +29,10 @@ let garey = {
     Name: "garey"
 }
 let people = [garey, sam, kas, rudy, harry];
+let hwLength = getLength(sayHello());
 
 
-sayHello();
+console.log(alert(sayHello()));
 checkAge(21, "Charles");
 checkAge(27, "Abby");
 checkAge(18, "James");
@@ -48,18 +49,27 @@ for(i = 0; i < 5; i++){
     checkAge(a, b);
 }
 
-function getLength()
+console.log(hwLength);
+if(hwLength % 2 == 0){
+    console.log("The World is nice and even!!");
+} else{
+    console.log("The world is an odd place!");
+}
+
+function getLength(word){
+    return word.length;
+}
 
 function sayHello() {
-    console.log("Hello World!");
+    return "Hello World!";
 }
 
 function checkAge(age, name) {
     if (age < 21) {
-        console.log("sorry " + name + ", you are not old enough to view this page!");
+        alert("sorry " + name + ", you are not old enough to view this page!");
     }
     else {
-        console.log("Welcome, " + name + "!");
+        alert("Welcome, " + name + "!");
     }
 }
 
