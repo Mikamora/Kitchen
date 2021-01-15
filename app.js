@@ -39,11 +39,11 @@ checkAge(18, "James");
 checkAge(17, "John");
 console.log(pet.Name + " is a " + pet.Breed);
 
-for(i = 0; i < 3; i++){
+for(i = 0; i < veggies.length; i++){
     console.log(veggies[i]);
 }
 
-for(i = 0; i < 5; i++){
+for(i = 0; i < people.length; i++){
     var a = people[i].Age;
     var b = people[i].Name;
     checkAge(a, b);
