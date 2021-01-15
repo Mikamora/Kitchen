@@ -28,7 +28,7 @@ let garey = {
     Age: 99,
     Name: "garey"
 }
-//I could also initialize the objects in the array like ex. let people [{age:#, name:name}, etc.]
+//I could also initialize the objects in the array like ex. let people [{age:#, name:name}, etc.] ; if theres a chance of using it again I should make it seperate.
 let people = [garey, sam, kas, rudy, harry];
 let hwLength = getLength(sayHello());
 
@@ -38,6 +38,7 @@ checkAge(21, "Charles");
 checkAge(27, "Abby");
 checkAge(18, "James");
 checkAge(17, "John");
+
 console.log(pet.Name + " is a " + pet.Breed);
 
 for(i = 0; i < veggies.length; i++){
