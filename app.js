@@ -31,8 +31,8 @@ let garey = {
 let people = [garey, sam, kas, rudy, harry];
 let hwLength = getLength(sayHello());
 
-
-console.log(alert(sayHello()));
+//alerts
+alert(sayHello());
 checkAge(21, "Charles");
 checkAge(27, "Abby");
 checkAge(18, "James");
@@ -49,7 +49,6 @@ for(i = 0; i < 5; i++){
     checkAge(a, b);
 }
 
-console.log(hwLength);
 if(hwLength % 2 == 0){
     console.log("The World is nice and even!!");
 } else{
@@ -69,7 +68,6 @@ function checkAge(age, name) {
         alert("sorry " + name + ", you are not old enough to view this page!");
     }
     else {
-        alert("Welcome, " + name + "!");
     }
 }
 
